@@ -1,0 +1,97 @@
+.bodyy {
+    background-image: url('slike/zuto.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*                background-position: center;*/
+    background-size: cover;
+
+}
+/* The sidebar menu */
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    /*                z-index: 1;  Stay on top */
+    /*                top: 0;  Stay at the top 
+                    left: 0;*/
+    background-color: #111; /* Black */
+    /*                overflow-x: hidden;  Disable horizontal scroll */
+    padding-top: 20px;
+}
+
+/* The navigation menu links */
+a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    color: cornflowerblue;
+    display: block;
+    transition-duration: 0.4s;
+
+}
+
+
+
+/* When you mouse over the navigation links, change their color */
+a:hover {
+    color: #f1f1f1;
+    font-size: 25px;
+    transition-duration: 0.4s;
+
+}
+.active{
+    background-color: #ffcc00;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 25px;
+
+
+}
+
+.logginddiv {
+    height: 500px; /* Full-height: remove this if you want "auto" height */
+    width: 500px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    /*                z-index: 1;  Stay on top */
+    /*                top: 0;  Stay at the top 
+                    left: 0;*/
+    margin-top: 10%;
+    margin-left: 40%;
+    background-color: #111; /* Black */
+    /*                overflow-x: hidden;  Disable horizontal scroll */
+    /*    padding-top: 20px;*/
+    border: 2px solid cornflowerblue;
+        transition-duration: 0.7s;
+        
+
+}
+
+
+.kimi{
+    margin-top: 90px; margin-left: 140px;
+    width: 210px;
+    height: 40px;
+    background-color: #ffcc00;
+    text-align: center;
+    font-family: Arial Black, Gadget, sans-serif;
+    color: cornflowerblue;
+}
+
+
+.sumbit {
+    background-color: cornflowerblue;
+    color: black;
+    text-align: center;
+    font-family:fantasy;
+    font-size: 20px;
+    width: 150px;
+    margin-top: 90px; margin-left: 170px;
+
+
+}
+
+.sumbit:hover {
+    color: white;
+    transition-duration: 0.4s;
+
+}
